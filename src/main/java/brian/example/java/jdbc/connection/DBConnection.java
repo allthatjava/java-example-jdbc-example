@@ -15,7 +15,7 @@ public class DBConnection {
 		
 		try {
 			con = DriverManager.getConnection(  
-					"jdbc:postgresql://localhost:5432/postgres","postgres","admin");
+					"jdbc:postgresql://isilo.db.elephantsql.com:5432/yglowlom","yglowlom","L9eWFGT7KsMioCCKuW_2xBPNGFt3fuN9");
 			con.setAutoCommit(false);
 			
 		} catch (Exception e) {
